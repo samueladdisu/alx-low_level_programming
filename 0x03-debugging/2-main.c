@@ -5,6 +5,7 @@
  * main - prints the largest of 3 integers
  * Return: 0
  */
+<<<<<<< HEAD
 
 int main(void)
 {
@@ -21,3 +22,18 @@ int main(void)
 
 	return (0);
 }
+=======
+ 
+ int main(void)
+ {
+ 	int a, b, c;
+ 	int largest;
+ 
+ 	a = 972;
+ 	b = -98;
+ 	c = 0;
+ 	largest = largest_number(a, b, c);
+ 	printf("%d is the largest number\n", largest);
+ 	return (0);
+ }
+>>>>>>> 72ea81fda538b37ec35d1da4a52f39bfdb879466
